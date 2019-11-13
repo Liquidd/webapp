@@ -11,18 +11,20 @@ $(document).ready(function(){
         });
     });
     $(".btn_login").on("click", function(){
-      console.log($("#username").val());
-      console.log($("#password").val());
-      $.post(base_url+"/login/validacion",{
-          username : $("#username").val(),
-          password : $("#password").val()
-      },function(respuesta){
-        console.log(respuesta);
-        if(respuesta > 0){
-          location.href = base_url+"usuarios";
-        }else{
-          swal({title: "Usuario / Contraseña Incorrectas",icon: "warning",button: "CERRAR"});
-        }
-      });
+      if ($("#username").val() == "" || $("#password").val() == "") {
+        swal({title: "Ingresa Usuario y Contraseña",icon: "warning",button: "CERRAR"});
+      }
+      else{
+        $.post(base_url+"/login/validacion",{
+            username : $("#username").val(),
+            password : $("#password").val()
+        },function(respuesta){
+          if(respuesta > 0){
+            location.href = base_url+"usuarios";
+          }else{
+            swal({title: "Usuario / Contraseña Incorrectas",icon: "warning",button: "CERRAR"});
+          }
+        });
+      }
     });
   });
