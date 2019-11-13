@@ -12,7 +12,7 @@ $(document).ready(function(){
     var id = $(this).attr("data-id");
     var estado = $(this).attr("data-estado");
 
-    $.post(base_url+"usuarios/estado_usuario",{
+    $.post(base_url+"Usuarios/estado_usuario",{
         id_usuario : id,
         estado: estado
     },function(respuesta){
@@ -46,7 +46,7 @@ $(document).ready(function(){
         swal({title: "Debes Seleccionar Un Permiso",icon: "warning",button: "CERRAR"});
       }
       else{
-        $.post(base_url+"usuarios/actualizar_usuario",{
+        $.post(base_url+"Usuarios/actualizar_usuario",{
           data : data,
           id_usuario : id
         },function(respuesta){
@@ -71,7 +71,7 @@ $(document).ready(function(){
       swal({title: "Debes Seleccionar Un Permiso",icon: "warning",button: "CERRAR"});
     }
     else{
-      $.post(base_url+"usuarios/alta_usuario",{
+      $.post(base_url+"Usuarios/alta_usuario",{
         data : data
       },function(respuesta){
         if(respuesta == 1){
@@ -95,7 +95,7 @@ $(document).ready(function(){
     var id = $(this).attr('data-id');
 
 
-    $.post(base_url+"usuarios/detalle",{
+    $.post(base_url+"Usuarios/detalle",{
             id_usuario : id
     },function(respuesta){
         let datos = JSON.parse(respuesta);
