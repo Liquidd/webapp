@@ -58,5 +58,9 @@ class Usuarios extends Controlador_general {
         $respuesta = $this->usuarios_m->lista_usuarios($id_usuario);
         echo json_encode($respuesta[0]);
     }
+    public function holaUsuarios()
+    {
+        echo "hola usuarios";
+    }
 
 }

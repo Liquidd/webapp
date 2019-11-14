@@ -51,5 +51,8 @@ class Controlador_general extends CI_Controller {
             $this->load->view('layout/footer');
         }
     }
+    function hola(){
+        echo "hola";
+    }
     
 }
