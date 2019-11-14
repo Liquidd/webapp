@@ -37,7 +37,7 @@ class Controlador_general extends CI_Controller {
         $data = array();
         $params["username"] = $this->name_user;
         $params["permisos"] = $this->permisos;
-        $params["titulo"] = "WebApp | ".$view;
+        $params["titulo"] = "LUIS | ".$view;
         $data['content'] = $this->load->view('vistas/'.$view, $params, true);
         
         if ($view == "login") {
@@ -53,7 +53,7 @@ class Controlador_general extends CI_Controller {
         }
     }
     function hola(){
-        echo "hola";
+        echo "hola X";
     }
     
 }

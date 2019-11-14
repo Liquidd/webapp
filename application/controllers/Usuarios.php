@@ -5,18 +5,18 @@ class Usuarios extends Controlador_general {
 
     public function __construct(){
         parent::__construct();
-        $this->load->model("usuarios_m",'',TRUE);
+        $this->load->model("Usuarios_m",'',TRUE);
         $this->load->helper('url');
         $this->load->library('session');
         if (!$this->estado_sesion) {
             $this->session->sess_destroy();
-            redirect("login");
+            redirect("Login");
         }
     }
 
     public function index()
     {
-            $lista_usuarios = $this->usuarios_m->lista_usuarios();
+            $lista_usuarios = $this->Usuarios_m->lista_usuarios();
             $array_usuarios = array();
     
             if($lista_usuarios !== FALSE)
@@ -34,33 +34,33 @@ class Usuarios extends Controlador_general {
     public function alta_usuario()
     {
         $data = $this->input->post("data");
-        $respuesta = $this->usuarios_m->alta_usuario($data["username"],$data["password"],$data["permisos"]);
+        $respuesta = $this->Usuarios_m->alta_usuario($data["username"],$data["password"],$data["permisos"]);
         echo $respuesta;
     }
     public function actualizar_usuario()
     {
         $data = $this->input->post("data");
         $id_usuario = $this->input->post("id_usuario");
-        $respuesta = $this->usuarios_m->actualizar_usuario($data["username"],$data["password"],$data["permisos"],$id_usuario);
+        $respuesta = $this->Usuarios_m->actualizar_usuario($data["username"],$data["password"],$data["permisos"],$id_usuario);
         echo $respuesta;
     }
     public function estado_usuario()
     {
         $id_usuario = $this->input->post("id_usuario");
         $estado = $this->input->post("estado");
-        $respuesta = $this->usuarios_m->estado_usuario($id_usuario,$estado);
+        $respuesta = $this->Usuarios_m->estado_usuario($id_usuario,$estado);
         echo $respuesta;
 
     }
     public function detalle()
     {
 		$id_usuario = $this->input->post("id_usuario");
-        $respuesta = $this->usuarios_m->lista_usuarios($id_usuario);
+        $respuesta = $this->Usuarios_m->lista_usuarios($id_usuario);
         echo json_encode($respuesta[0]);
     }
     public function holaUsuarios()
     {
-        echo "hola usuarios";
+        echo "hola usuarios 2";
     }
 
 }
