@@ -1,8 +1,8 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
  
 class Controlador_general extends CI_Controller {
 
-    protected $id_usuario;
     protected $name_user;
     protected $permisos;
     protected $estado_sesion;
@@ -34,10 +34,9 @@ class Controlador_general extends CI_Controller {
          */
 
         $data = array();
-        $params["id_usuario"] = $this->id_usuario;
         $params["username"] = $this->name_user;
         $params["permisos"] = $this->permisos;
-        $params["titulo"] = "UNIDAD 4 | ".$view;
+        $params["titulo"] = "WebApp | ".$view;
         $data['content'] = $this->load->view('vistas/'.$view, $params, true);
         
         if ($view == "login") {
