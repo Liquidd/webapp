@@ -37,7 +37,7 @@ class Controlador_general extends CI_Controller {
         $data = array();
         $params["username"] = $this->name_user;
         $params["permisos"] = $this->permisos;
-        $params["titulo"] = "AppWeb | ".$view;
+        $params["titulo"] = "WebApp | ".$view;
         $data['content'] = $this->load->view('vistas/'.$view, $params, true);
         
         if ($view == "login") {
