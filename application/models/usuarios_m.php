@@ -1,4 +1,5 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php 
+
 class Usuarios_m extends CI_Model{
 
     public function lista_usuarios($id_usuario = null)

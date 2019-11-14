@@ -1,4 +1,5 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+
 class Login_m extends CI_Model{
 
     public function validacion($user,$psw)
