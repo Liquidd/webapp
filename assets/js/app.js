@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(".btn_logout").on("click", function(){
-      $.post(base_url+"Login/logout",{},function(respuesta){
+      $.post(base_url+"login/logout",{},function(respuesta){
           console.log("usuario deslogeado");
           location.href = base_url+"login";
       });
@@ -15,7 +15,7 @@ $(document).ready(function(){
         swal({title: "Ingresa Usuario y Contraseña",icon: "warning",button: "CERRAR"});
       }
       else{
-        $.post(base_url+"/Login/validacion",{
+        $.post(base_url+"/login/validacion",{
             username : $("#username").val(),
             password : $("#password").val()
         },function(respuesta){
