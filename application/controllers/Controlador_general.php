@@ -9,7 +9,6 @@ class Controlador_general extends CI_Controller {
     public function __construct(){
         parent::__construct();
         $this->load->library('session');
-        $this->load->helper('url');
 
         if ($this->session->userdata('login_state') !== FALSE){
             $this->id_usuario = $this->session->userdata("datos_usuario")['id_usuario'];
