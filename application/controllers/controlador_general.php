@@ -33,10 +33,11 @@ class Controlador_general extends CI_Controller {
          * @data['titulo'] arreglo que almacenara el titulo de la vista y que podra ser heredado
          */
 
+
         $data = array();
         $params["username"] = $this->name_user;
         $params["permisos"] = $this->permisos;
-        $params["titulo"] = "WebApp | ".$view;
+        $params["titulo"] = "AppWeb | ".$view;
         $data['content'] = $this->load->view('vistas/'.$view, $params, true);
         
         if ($view == "login") {
