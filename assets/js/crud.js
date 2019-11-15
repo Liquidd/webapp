@@ -95,7 +95,7 @@ $(document).ready(function(){
     var id = $(this).attr('data-id');
 
 
-    $.post(base_url+"usuarios/detalle",{
+    $.post(base_url+"Usuarios/detalle",{
             id_usuario : id
     },function(respuesta){
         let datos = JSON.parse(respuesta);
