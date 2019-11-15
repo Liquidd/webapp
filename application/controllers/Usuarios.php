@@ -9,7 +9,7 @@ class Usuarios extends Controlador_general {
         $this->load->library('session');
         if (!$this->estado_sesion) {
             $this->session->sess_destroy();
-            redirect("login");
+            $this->load->view("login");
         }
     }
 
