@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Safario Travel - Home</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
+	<link rel="icon" href="<?= base_url()?>safario/img/Fevicon.png" type="image/png">
 
-  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="vendors/linericon/style.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/linericon/style.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/flat-icon/font/flaticon.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/nice-select/nice-select.css">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" ref="<?= base_url()?>safario/css/style.css">
 </head>
 <body class="bg-shape">
 
@@ -25,7 +25,7 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.html"><img src="<?= base_url()?>safario/img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -78,7 +78,7 @@
           <a class="button button-hero mt-4" href="#">Get Started</a>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
-          <img class="img-fluid" src="img/home/hero-img.png" alt="">
+          <img class="img-fluid" src="<?= base_url()?>safario/img/home/hero-img.png" alt="">
         </div>
       </div>
     </div>
@@ -90,7 +90,7 @@
   <section class="section-margin generic-margin">
     <div class="container">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
+        <img class="section-intro-img" src="<?= base_url()?>safario/img/home/section-icon.png" alt="">
         <h2>Our Popular Services</h2>
         <p>Fowl have fruit moveth male they are that place you will lesser</p>
       </div>
@@ -99,7 +99,7 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="img/home/service1.png" alt="">
+              <img class="img-fluid" src="<?= base_url()?>safario/img/home/service1.png" alt="">
             </div>
             <div class="service-card-body">
               <h3>Hotel Booking</h3>
@@ -110,7 +110,7 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="img/home/service2.png" alt="">
+              <img class="img-fluid" src="<?= base_url()?>safario/img/home/service2.png" alt="">
             </div>
             <div class="service-card-body">
               <h3>Flight Booking</h3>
@@ -121,7 +121,7 @@
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="img/home/service3.png" alt="">
+              <img class="img-fluid" src="<?= base_url()?>safario/img/home/service3.png" alt="">
             </div>
             <div class="service-card-body">
               <h3>Destination Booking</h3>
@@ -141,7 +141,7 @@
       <div class="row">
         <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
           <div class="about-img">
-            <img class="img-fluid" src="img/home/about-img.png" alt="">
+            <img class="img-fluid" src="<?= base_url()?>safario/img/home/about-img.png" alt="">
           </div>
         </div>
         <div class="col-lg-5 col-md-6 align-self-center about-content">
@@ -160,7 +160,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour1.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/home/tour1.png" alt="">
             <div class="tour-card-overlay">
               <div class="media">
                 <div class="media-body">
@@ -187,7 +187,7 @@
           </div>
 
           <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour2.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/home/tour2.png" alt="">
             <div class="tour-card-overlay">
               <div class="media">
                 <div class="media-body">
@@ -207,7 +207,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-7">
           <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour3.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/home/tour3.png" alt="">
             <div class="tour-card-overlay">
               <div class="media">
                 <div class="media-body">
@@ -224,7 +224,7 @@
         </div>
         <div class="col-md-6 col-lg-5">
           <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour4.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/home/tour4.png" alt="">
             <div class="tour-card-overlay">
               <div class="media">
                 <div class="media-body">
@@ -249,7 +249,7 @@
   <section class="bg-gray section-padding magic-ball magic-ball-testimonial pb-xl-5">
     <div class="container">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
+        <img class="section-intro-img" src="<?= base_url()?>safario/img/home/section-icon.png" alt="">
         <h2>Our client says</h2>
         <p>Fowl have fruit moveth male they are that place you will lesser</p>
       </div>
@@ -260,7 +260,7 @@
           <div class="row">
             <div class="col-md-3 col-lg-2 align-self-center">
               <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
+                <img class="card-img rounded-0" src="<?= base_url()?>safario/img/testimonial/t-slider1.png" alt="">
               </div>
             </div>
             <div class="col-md-9 col-lg-10">
@@ -277,7 +277,7 @@
           <div class="row">
             <div class="col-md-3 col-lg-2 align-self-center">
               <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
+                <img class="card-img rounded-0" src="<?= base_url()?>safario/img/testimonial/t-slider1.png" alt="">
               </div>
             </div>
             <div class="col-md-9 col-lg-10">
@@ -294,7 +294,7 @@
           <div class="row">
             <div class="col-md-3 col-lg-2 align-self-center">
               <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
+                <img class="card-img rounded-0" src="<?= base_url()?>safario/img/testimonial/t-slider1.png" alt="">
               </div>
             </div>
             <div class="col-md-9 col-lg-10">
@@ -383,7 +383,7 @@
   <section class="section-padding bg-gray">
     <div class="container">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
+        <img class="section-intro-img" src="<?= base_url()?>safario/img/home/section-icon.png" alt="">
         <h2>From our Blog</h2>
         <p>Fowl have fruit moveth male they are that place you will lesser</p>
       </div>
@@ -391,7 +391,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-1.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-1.png" alt="">
             <div class="card-blog-body">
               <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
@@ -407,7 +407,7 @@
 
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-2.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-2.png" alt="">
             <div class="card-blog-body">
               <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
@@ -423,7 +423,7 @@
 
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-3.png" alt="">
+            <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-3.png" alt="">
             <div class="card-blog-body">
               <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
@@ -498,14 +498,14 @@
           <div class="single-footer-widget mail-chimp">
             <h6 class="mb-20">InstaFeed</h6>
             <ul class="instafeed d-flex flex-wrap">
-              <li><img src="img/instagram/i1.jpg" alt=""></li>
-              <li><img src="img/instagram/i2.jpg" alt=""></li>
-              <li><img src="img/instagram/i3.jpg" alt=""></li>
-              <li><img src="img/instagram/i4.jpg" alt=""></li>
-              <li><img src="img/instagram/i5.jpg" alt=""></li>
-              <li><img src="img/instagram/i6.jpg" alt=""></li>
-              <li><img src="img/instagram/i7.jpg" alt=""></li>
-              <li><img src="img/instagram/i8.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i1.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i2.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i3.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i4.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i5.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i6.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i7.jpg" alt=""></li>
+              <li><img src="<?= base_url()?>safario/img/instagram/i8.jpg" alt=""></li>
             </ul>
           </div>
         </div>						
@@ -531,13 +531,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/mail-script.js"></script>
-  <script src="js/skrollr.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="<?= base_url()?>safario/vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="<?= base_url()?>safario/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url()?>safario/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="<?= base_url()?>safario/vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="<?= base_url()?>safario/js/jquery.ajaxchimp.min.js"></script>
+  <script src="<?= base_url()?>safario/js/mail-script.js"></script>
+  <script src="<?= base_url()?>safario/js/skrollr.min.js"></script>
+  <script src="<?= base_url()?>safario/js/main.js"></script>
 </body>
 </html>
