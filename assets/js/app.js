@@ -27,4 +27,23 @@ $(document).ready(function(){
         });
       }
     });
+    //nav
+    $(".About").on("click", function(){
+      location.href = base_url+"Usuarios/about";
+    });
+    $(".Packages").on("click", function(){
+      location.href = base_url+"Usuarios/packages";
+    });
+    $(".Blog").on("click", function(){
+      location.href = base_url+"Usuarios/blog";
+    });
+    $(".Contact").on("click", function(){
+      location.href = base_url+"Usuarios/contact";
+    });
+    $(".Home").on("click", function(){
+      location.href = base_url+"Usuarios/home";
+    });
+    $(".Inicio").on("click", function(){
+      location.href = base_url+"login";
+    });
   });
