@@ -7,14 +7,14 @@
   <title>Safario Travel - Home</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
 
-  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="vendors/linericon/style.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/linericon/style.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/flat-icon/font/flaticon.css">
+  <link rel="stylesheet" href="<?= base_url()?>vendors/nice-select/nice-select.css">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
