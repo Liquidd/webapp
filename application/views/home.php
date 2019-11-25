@@ -8,13 +8,13 @@
 	<link rel="icon" href="<?= base_url()?>safario/img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="<?= base_url()?>safario/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/linericon/style.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/nice-select/nice-select.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/linericon/style.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/flat-icon/font/flaticon.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/nice-select/nice-select.css">
 
   <link rel="stylesheet" ref="<?= base_url()?>safario/css/style.css">
 </head>
