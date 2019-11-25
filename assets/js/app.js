@@ -29,19 +29,19 @@ $(document).ready(function(){
     });
     //nav
     $(".About").on("click", function(){
-      location.href = base_url+"Usuarios/about";
+      location.href = base_url+"login/about";
     });
     $(".Packages").on("click", function(){
-      location.href = base_url+"Usuarios/packages";
+      location.href = base_url+"login/packages";
     });
     $(".Blog").on("click", function(){
-      location.href = base_url+"Usuarios/blog";
+      location.href = base_url+"login/blog";
     });
     $(".Contact").on("click", function(){
-      location.href = base_url+"Usuarios/contact";
+      location.href = base_url+"login/contact";
     });
     $(".Home").on("click", function(){
-      location.href = base_url+"Usuarios/home";
+      location.href = base_url+"login/home";
     });
     $(".Inicio").on("click", function(){
       location.href = base_url+"login";
