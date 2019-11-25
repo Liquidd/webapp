@@ -57,24 +57,5 @@ class Usuarios extends Controlador_general {
         $respuesta = $this->usuarios_m->lista_usuarios($id_usuario);
         echo json_encode($respuesta[0]);
     }
-    public function about()
-    {
-        $this->view('about');
-    }
-    public function packages()
-    {
-        $this->view('packages');
-    }
-    public function blog()
-    {
-        $this->view('blog');
-    }
-    public function contact()
-    {
-        $this->view('contact');
-    }
-    public function home()
-    {
-        $this->view('home');
-    }
+    
 }

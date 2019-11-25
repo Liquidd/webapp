@@ -31,4 +31,24 @@ class Login extends CI_Controller {
         $this->session->sess_destroy();
         $this->index();
     }
+    public function about()
+    {
+        $this->load->view('about');
+    }
+    public function packages()
+    {
+        $this->load->view('packages');
+    }
+    public function blog()
+    {
+        $this->load->view('blog');
+    }
+    public function contact()
+    {
+        $this->load->view('contact');
+    }
+    public function home()
+    {
+        $this->load->view('home');
+    }
 }
