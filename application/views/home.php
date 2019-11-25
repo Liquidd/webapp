@@ -8,15 +8,15 @@
 	<link rel="icon" href="<?= base_url()?>safario/img/Fevicon.png" type="image/png">
 
   <link rel="stylesheet" href="<?= base_url()?>safario/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/linericon/style.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="<?= base_url()?>safario/vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/linericon/style.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/flat-icon/font/flaticon.css">
+  <link rel="stylesheet" href="<?= base_url()?>safario/nice-select/nice-select.css">
 
-  <link rel="stylesheet" href="<?= base_url()?>css/style.css">
+  <link rel="stylesheet" ref="<?= base_url()?>safario/css/style.css">
 </head>
 <body class="bg-shape">
 
@@ -25,7 +25,7 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href=""><img src="<?= base_url()?>safario/img/logo.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="index.html"><img src="<?= base_url()?>safario/img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -34,12 +34,11 @@
 
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link Home" href="">Home</a></li> 
-              <li class="nav-item"><a class="nav-link About" href="">About</a></li> 
-              <li class="nav-item"><a class="nav-link Packages" href="">Packages</a>
-              <li class="nav-item"><a class="nav-link Blog" href="">Blog</a>    
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
+              <li class="nav-item"><a class="nav-link" href="package.html">Packages</a>
               <li class="nav-item submenu dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Pages</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="amentities.html">Amentities</a>                 
@@ -47,7 +46,7 @@
 							</li>
 
               <li class="nav-item submenu dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Blog</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="blog.html">Blog Single</a></li>
@@ -58,7 +57,7 @@
             </ul>
 
             <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="">Get Started</a>
+              <a class="button" href="#">Get Started</a>
             </div>
           </div> 
         </div>
@@ -76,7 +75,7 @@
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
           <h1>Travel More To Discover Yourself</h1>
           <p>Air seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there is seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there </p>
-          <a class="button button-hero mt-4" href="">Get Started</a>
+          <a class="button button-hero mt-4" href="#">Get Started</a>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
           <img class="img-fluid" src="<?= base_url()?>safario/img/home/hero-img.png" alt="">
@@ -148,7 +147,7 @@
         <div class="col-lg-5 col-md-6 align-self-center about-content">
           <h2>Exploration is <br class="d-none d-xl-block"> really the essence <br class="d-none d-xl-block"> of the human spirit</h2>
           <p>Make she'd moved divided air. Whose tree that replenish tone hath own upon them it multiply was blessed is lights make gathering so day dominion so creeping air was made.</p>
-          <a class="button" href="">Learn More</a>
+          <a class="button" href="#">Learn More</a>
         </div>
       </div>
     </div>
@@ -322,7 +321,7 @@
           <div class="search-content">
             <h2>Search suitable <br class="d-none d-xl-block"> and affordable plan <br class="d-none d-xl-block"> for your tour</h2>
             <p>Make she'd moved divided air. Whose tree that replenish tone hath own upon them it multiply was blessed is lights make gathering so day dominion so creeping</p>
-            <a class="button" href="">Learn More</a>
+            <a class="button" href="#">Learn More</a>
           </div>
         </div>
         <div class="col-lg-6 col-xl-6 offset-xl-1">
@@ -394,12 +393,12 @@
           <div class="card-blog">
             <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-1.png" alt="">
             <div class="card-blog-body">
-              <a href="">
+              <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
               </a>
               <ul class="card-blog-info">
-                <li><a href=""><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href=""><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
               </ul>
               <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
             </div>
@@ -410,12 +409,12 @@
           <div class="card-blog">
             <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-2.png" alt="">
             <div class="card-blog-body">
-              <a href="">
+              <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
               </a>
               <ul class="card-blog-info">
-                <li><a href=""><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href=""><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
               </ul>
               <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
             </div>
@@ -426,12 +425,12 @@
           <div class="card-blog">
             <img class="card-img rounded-0" src="<?= base_url()?>safario/img/blog/blog-3.png" alt="">
             <div class="card-blog-body">
-              <a href="">
+              <a href="#">
                 <h4>Forest responds to consultation smoking in al fresco.</h4>
               </a>
               <ul class="card-blog-info">
-                <li><a href=""><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href=""><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
+                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
               </ul>
               <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
             </div>
@@ -461,18 +460,18 @@
             <div class="row">
               <div class="col">
                 <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Feature</a></li>
-                  <li><a href="">Services</a></li>
-                  <li><a href="">Portfolio</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Feature</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
                 </ul>
               </div>
               <div class="col">
                 <ul>
-                  <li><a href="">Team</a></li>
-                  <li><a href="">Pricing</a></li>
-                  <li><a href="">Blog</a></li>
-                  <li><a href="">Contact</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </div>										
             </div>							
@@ -518,10 +517,10 @@
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-dribbble"></i></a>
-            <a href=""><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
           </div>
         </div>
       </div>
